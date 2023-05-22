@@ -7,9 +7,10 @@ This repository is dedicated to providing solutions and guidance specifically re
 
 <br>
 
-## Before you start Reading: Demonstration Video
+## Demonstration Video
 
 A detailed walkthrough of the setup and deployment process is available on YouTube. Click on the image below to watch the video.
+<br>
 **Link of the Video:** https://youtu.be/GxUi6MsXZPM
 
 <br>
