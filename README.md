@@ -2,6 +2,7 @@
 This repository is dedicated to providing solutions and guidance specifically related to managing instance profiles in AWS Elastic Beanstalk. It covers topics such as creating and configuring instance profiles, assigning necessary policies, and resolving common issues associated with instance profiles in Elastic Beanstalk.
 
 
+![Screenshot 2023-05-22 at 11 28 41 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/768df3c0-a50f-4219-bdc5-7a593a6a2aa1)
 
 ![vlcsnap-2023-05-22-10h59m02s928](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/667bae23-c5d8-44e7-bad0-29e581b69974)
 ![Screenshot 2023-05-22 at 11 01 40 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/f5e84756-0a36-4999-b524-f2c12c30343a)
