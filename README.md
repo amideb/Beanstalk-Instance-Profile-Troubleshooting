@@ -1,8 +1,23 @@
 # Beanstalk-Instance-Profile-Troubleshooting
 This repository is dedicated to providing solutions and guidance specifically related to managing instance profiles in AWS Elastic Beanstalk. It covers topics such as creating and configuring instance profiles, assigning necessary policies, and resolving common issues associated with instance profiles in Elastic Beanstalk.
 
-![Screenshot 2023-05-22 at 11 28 41 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/0bc76619-a29e-4379-afaa-472fa72bc993)
 ![vlcsnap-2023-05-22-10h59m02s928](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/4ef784c9-03fe-4f48-99cb-90d01b6c0926)
+
+![Screenshot 2023-05-22 at 11 28 41 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/0bc76619-a29e-4379-afaa-472fa72bc993)
+
+<br>
+
+
+## Step 3: Configure the new environment
+
+On the "Create a new environment" page, do the following:
+
+-   For "Application Name", type `my-first-elasticbeanstalk-application`.
+-   Keep "Environment name" and "Domain" as default or you can modify it according to your needs.
+-   For "Platform", choose "Python".
+
+<br>
+
 ![Screenshot 2023-05-22 at 11 01 40 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/90de27da-7331-42e6-bc54-2ec625684495)
 ![Screenshot 2023-05-22 at 11 02 35 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/6f668efa-0081-420f-aaa6-b9153a449191)
 ![Screenshot 2023-05-22 at 11 03 43 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/6dcec3b5-deeb-4540-b16e-3187deef0971)
