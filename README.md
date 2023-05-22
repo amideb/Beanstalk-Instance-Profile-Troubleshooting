@@ -7,6 +7,14 @@ This repository is dedicated to providing solutions and guidance specifically re
 
 <br>
 
+## Before you start Reading: Demonstration Video
+
+A detailed walkthrough of the setup and deployment process is available on YouTube. Click on the image below to watch the video.
+**Link of the Video:** https://youtu.be/GxUi6MsXZPM
+
+<br>
+
+
 ## Step 1: Open Elastic Beanstalk console
 
 - First, open the [Elastic Beanstalk console](https://console.aws.amazon.com/elasticbeanstalk/).
