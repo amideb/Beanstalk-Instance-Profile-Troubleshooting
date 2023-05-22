@@ -34,9 +34,13 @@ On the "Create a new environment" page, do the following:
 
 <br>
 
-## Step 4: Configure more options
+## Step 4: Configure Service Access
 
-Click on the "Configure more options" button. This will allow you to configure additional settings for your environment.
+In "Configure Service Access" step,
+-   Choose "Create and use new service role".
+-   For "Service role name", type `aws-elasticbeanstalk-service-role`.
+- Now, Check the "EC2 Instance Profile and click refresh, If you have created any EC2 Instance profile before with proper permission it will show that, you can select that and click on next.
+- Otherwise Open IAM in a new tab and follow 
 
 <br>
 
@@ -44,13 +48,17 @@ Click on the "Configure more options" button. This will allow you to configure a
 
 <br>
 
-## Step 5: Create a new IAM service role
+## Step 5: Create a new IAM Role
 
-Click on the "Permissions" category. Here, you will configure the service role for Elastic Beanstalk:
-
--   Choose "Create new role".
--   For "Service role name", type `aws-elasticbeanstalk-service-role`.
--   Make sure "IAM instance profile" is set to `aws-elasticbeanstalk-ec2-role`.
+- Open the IAM Console in your AWS Management Console.
+- In the navigation pane, choose "Roles", and then "Create role".
+- In Trusted entity type Select `AWS Service` .
+- Choose the "EC2" use case, and then "Next: Permissions".
+- In the Attach permissions policies page, type "AWSElasticBeanstalk" in the search box.
+- Check the boxes for "AWSElasticBeanstalkWebTier", "AWSElasticBeanstalkWorkerTier", and "AWSElasticBeanstalkMulticontainerDocker".
+- Click "Next: Tags" to optionally add tags to the role.
+- Click "Next: Review".
+-  For Role name, type "aws-elasticbeanstalk-ec2-role" and then click "Create role".
 
 <br>
 
@@ -60,7 +68,25 @@ Click on the "Permissions" category. Here, you will configure the service role f
 ![Screenshot 2023-05-22 at 11 07 20 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/17bf9c3f-2a08-4e35-99ce-d291355c19c0)
 ![Screenshot 2023-05-22 at 11 07 59 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/faf17db7-d124-4cba-abff-f9916639ff26)
 ![Screenshot 2023-05-22 at 11 08 22 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/e7dc9b9b-c3d4-481f-a261-e2a2269f633d)
+
+
+
+
 ![Screenshot 2023-05-22 at 11 08 58 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/e16f6bfc-5e8f-4213-a0be-b225c7763af4)
+
+<br>
+
+## Step 4: Create a new IAM service role
+
+Go back to Configure Service Access  page
+
+-   Refresh "EC2 Instance Profile"
+-   Make sure "IAM instance profile" is set to `aws-elasticbeanstalk-ec2-role`.
+
+
+<br>
+
+
 ![Screenshot 2023-05-22 at 11 09 44 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/edec9838-b2e2-424c-a433-71701b0851ad)
 ![Screenshot 2023-05-22 at 11 10 21 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/d06de6fc-46bf-4e95-9ff6-3923631334e7)
 ![Screenshot 2023-05-22 at 11 11 10 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/24d80c4b-95b0-42c9-aa1b-0f0442a2c599)
