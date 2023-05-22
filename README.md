@@ -19,6 +19,18 @@ This repository is dedicated to providing solutions and guidance specifically re
 ![Screenshot 2023-05-22 at 11 10 21 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/d06de6fc-46bf-4e95-9ff6-3923631334e7)
 ![Screenshot 2023-05-22 at 11 11 10 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/24d80c4b-95b0-42c9-aa1b-0f0442a2c599)
 ![Screenshot 2023-05-22 at 11 12 02 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/6608d1ed-cec3-40e6-b8b4-ccccec3ddd64)
+
+<br>
+## Step 6: Configure Capacity
+
+Click on the "Capacity" category and do the following:
+
+-   For "Environment type", choose "Load balanced".
+-   For "Min instances", type `1`.
+-   For "Max instances", type `2`.
+
+<br>
+
 ![Screenshot 2023-05-22 at 11 12 51 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/fbb4ba78-6116-4377-a1b5-aa5b869480ef)
 ![Screenshot 2023-05-22 at 11 13 27 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/78af24f6-5a93-4bbc-9694-110b1c1b5c8f)
 ![Screenshot 2023-05-22 at 11 14 10 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/72a1cca4-2356-4eca-bb4c-2abc45e521fd)
