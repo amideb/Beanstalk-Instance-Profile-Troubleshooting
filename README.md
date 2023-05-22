@@ -110,6 +110,36 @@ Click on the "Capacity" category and do the following:
 
 ![Screenshot 2023-05-22 at 11 12 51 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/fbb4ba78-6116-4377-a1b5-aa5b869480ef)
 ![Screenshot 2023-05-22 at 11 13 27 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/78af24f6-5a93-4bbc-9694-110b1c1b5c8f)
+
+<br>
+
+## Step 7: Create the environment
+
+Click "Submit". AWS Elastic Beanstalk will then start creating the application. This may take a few minutes.
+
+<br>
+
 ![Screenshot 2023-05-22 at 11 14 10 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/72a1cca4-2356-4eca-bb4c-2abc45e521fd)
 ![Screenshot 2023-05-22 at 11 14 35 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/4793c634-44ae-4a9c-add9-9475395b65cd)
+
+<br>
+
+## Step 8: Open the Application
+
+After the environment is created, Elastic Beanstalk provides you with a URL to your website. If you used the sample application, this will be a simple web page that's served by a Python application running on your environment.
+
+<br>
+
+
 ![Screenshot 2023-05-22 at 11 15 05 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/9c35b468-e98e-4000-b936-b8d976e7edec)
+
+
+## Congratulations! 🎉
+
+You've successfully created your Python application on Amazon Elastic Beanstalk. This is a significant step forward in your cloud journey. Your my-first-elasticbeanstalk-application is now up and running, encapsulating best practices of scalability, load balancing, and automated management.
+
+This achievement not only highlights your comprehension of AWS services, but it also showcases your capability to manage and deploy scalable web applications.
+
+Keep exploring, keep learning, and continue making great strides in the world of cloud computing!
+
+Remember, each step you take is bringing you closer to becoming a proficient cloud developer. Enjoy your success and happy coding!
