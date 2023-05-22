@@ -3,6 +3,15 @@ This repository is dedicated to providing solutions and guidance specifically re
 
 ![vlcsnap-2023-05-22-10h59m02s928](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/4ef784c9-03fe-4f48-99cb-90d01b6c0926)
 
+<br>
+
+## Step 1: Open Elastic Beanstalk console
+
+- First, open the [Elastic Beanstalk console](https://console.aws.amazon.com/elasticbeanstalk/).
+- Click on "Create Application"
+
+<br>
+
 ![Screenshot 2023-05-22 at 11 28 41 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/0bc76619-a29e-4379-afaa-472fa72bc993)
 
 <br>
@@ -22,7 +31,29 @@ On the "Create a new environment" page, do the following:
 ![Screenshot 2023-05-22 at 11 02 35 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/6f668efa-0081-420f-aaa6-b9153a449191)
 ![Screenshot 2023-05-22 at 11 03 43 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/6dcec3b5-deeb-4540-b16e-3187deef0971)
 ![Screenshot 2023-05-22 at 11 04 04 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/f7921742-757a-4ed6-b8d7-153563d1967a)
+
+<br>
+
+## Step 4: Configure more options
+
+Click on the "Configure more options" button. This will allow you to configure additional settings for your environment.
+
+<br>
+
 ![Screenshot 2023-05-22 at 11 04 57 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/ec826f92-653a-4e77-a5bd-4278fd32ebc6)
+
+<br>
+
+## Step 5: Create a new IAM service role
+
+Click on the "Permissions" category. Here, you will configure the service role for Elastic Beanstalk:
+
+-   Choose "Create new role".
+-   For "Service role name", type `aws-elasticbeanstalk-service-role`.
+-   Make sure "IAM instance profile" is set to `aws-elasticbeanstalk-ec2-role`.
+
+<br>
+
 ![Screenshot 2023-05-22 at 11 05 38 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/ee34b838-ba4b-49d2-a524-96d61ad2cc94)
 ![Screenshot 2023-05-22 at 11 06 05 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/a41d998e-18da-483f-9d4f-49023b4a4404)
 ![Screenshot 2023-05-22 at 11 06 52 AM](https://github.com/amideb/Beanstalk-Instance-Profile-Troubleshooting/assets/57451228/57a9d04b-0eca-45e4-920c-24f5bb562108)
