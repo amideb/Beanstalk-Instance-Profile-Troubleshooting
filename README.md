@@ -17,7 +17,7 @@ This repository is dedicated to providing solutions and guidance specifically re
 <br>
 
 
-## Step 3: Configure the new environment
+## Step 2: Configure the new environment
 
 On the "Create a new environment" page, do the following:
 
@@ -43,13 +43,13 @@ On the "Create a new environment" page, do the following:
 
 <br>
 
-## Step 4: Configure Service Access
+## Step 3: Configure Service Access
 
 In "Configure Service Access" step,
 -   Choose "Create and use new service role".
 -   For "Service role name", type `aws-elasticbeanstalk-service-role`.
 - Now, Check the "EC2 Instance Profile and click refresh, If you have created any EC2 Instance profile before with proper permission it will show that, you can select that and click on next.
-- Otherwise Open IAM in a new tab and follow 
+- Otherwise Open IAM in a new tab and follow the next Step
 
 <br>
 
@@ -57,7 +57,7 @@ In "Configure Service Access" step,
 
 <br>
 
-## Step 5: Create a new IAM Role
+## Step 4: Create a new IAM Role
 
 - Open the IAM Console in your AWS Management Console.
 - In the navigation pane, choose "Roles", and then "Create role".
@@ -101,7 +101,7 @@ In "Configure Service Access" step,
 
 <br>
 
-## Step 4: Create a new IAM service role
+## Step 3 Recap: Configure Service Access after creating IAM Role
 
 Go back to Configure Service Access  page
 
@@ -124,7 +124,7 @@ Go back to Configure Service Access  page
 
 <br>
 
-## Step 6: Configure Capacity
+## Step 5: Configure Capacity
 
 Click on the "Capacity" category and do the following:
 
@@ -147,7 +147,7 @@ Click on the "Capacity" category and do the following:
 
 <br>
 
-## Step 7: Create the environment
+## Step 6: Create the environment
 
 Click "Submit". AWS Elastic Beanstalk will then start creating the application. This may take a few minutes.
 
@@ -161,7 +161,7 @@ Click "Submit". AWS Elastic Beanstalk will then start creating the application. 
 
 <br>
 
-## Step 8: Open the Application
+## Step 7: Open the Application
 
 After the environment is created, Elastic Beanstalk provides you with a URL to your website. If you used the sample application, this will be a simple web page that's served by a Python application running on your environment.
 
