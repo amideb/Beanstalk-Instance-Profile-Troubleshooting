@@ -48,8 +48,8 @@ On the "Create a new environment" page, do the following:
 In "Configure Service Access" step,
 -   Choose "Create and use new service role".
 -   For "Service role name", type `aws-elasticbeanstalk-service-role`.
-- Now, Check the "EC2 Instance Profile and click refresh, If you have created any EC2 Instance profile before with proper permission it will show that, you can select that and click on next.
-- Otherwise Open IAM in a new tab and follow the next Step
+- Now, Check the "EC2 Instance Profile and click refresh, If you have created any EC2 Instance profile before with proper permission it will show that, you can select that and click on next and go to **Step 3 Recap** after **Step 4**
+- Otherwise Open IAM in a new tab and follow the next **Step 4**
 
 <br>
 
